@@ -1,0 +1,13 @@
+
+@font-face {
+    font-family: 'Agrandir';
+    src: url('custom-fonts/Agrandir-Regular.otf');
+    font-family: 'Agrandir-Grand';
+    src: url('custom-fonts/Agrandir-GrandHeavy.otf');
+}
+
+body {
+    background-color: #171719;
+    font-family: 'Agrandir', sans-serif;
+    color: white;
+}
