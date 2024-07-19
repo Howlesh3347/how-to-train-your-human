@@ -1,0 +1,38 @@
+
+@font-face {
+    font-family: 'Agrandir';
+    src: url('custom-fonts/Agrandir-Regular.otf');
+    font-family: 'Agrandir-Grand';
+    src: url('custom-fonts/Agrandir-GrandHeavy.otf');
+}
+
+body {
+    margin-left: 275px;
+    margin-top: 75px;
+    background-color: rgb(30, 29, 29);
+}
+
+.container {
+    background-color: #171719;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid orange;
+    height: 600px;
+    width: 1000px;
+    padding-bottom: 40px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.text {
+     width: 600px;
+     text-align: center;
+}
